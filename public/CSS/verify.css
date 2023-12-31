@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Calibri;
+}
+body
+{
+    width: 100%;
+    height: 100%;
+    background-color: #b9ddf1;
+}
+.container{
+    margin-top: 9%;
+    margin-left: 20%;
+    border-radius: 20px;
+    background-color: #bcc3c5;
+    width: 900px;
+    height: 450px;
+    border: 5px solid #102A7D;
+}
+.container h1{
+    margin-top: 5%;
+    text-align: center;
+    color: #102A7D;
+    font-size: 25px;
+}
+.otp input[type="text"]{
+    width: 170px;
+    height: 45px;
+
+    border: 3px solid rgb(0, 49, 139);
+    text-align: center;
+    font-size: 30px;
+    color: #00318B;
+    font-weight: bold;
+}
+.otp{
+    margin-left: 40%;
+    margin-top: 3%;
+}
+.container .resend{
+    margin-left: 10%;
+}
+.container .resend h2{
+    color: #102A7D;
+    font-size: 20px;
+}
+.container .resend a{
+    text-decoration: none;
+}
+.container .resend a:hover{
+    text-decoration: none;
+}
+.button{
+    text-align: center;
+}
+.button-content{
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.right-side .button-content:hover{
+    opacity: 1;
+}
+.container input[type="submit"]{
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid rgb(0, 49, 139);
+    background-color: #00318B;
+    text-align: center;
+    margin-left: 37%;
+    margin-top: 3%;
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+}
+.count{
+    width: 100px;
+    height: 33px;
+    border: 2px solid rgb(0, 49, 139);
+    margin-left: 700px;
+}
+.count p{
+    text-align: center;
+    color: #102A7D;
+    font-size: 25px;
+    font-weight: bold;
+}
+h1 a{
+    text-decoration: none;
+    color: #102A7D;
+}
+h1 a:hover{
+    color: dodgerblue;
+    opacity: 1;
+}

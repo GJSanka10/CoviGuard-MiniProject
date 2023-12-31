@@ -1,0 +1,692 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Mochiy+Pop+P+One&family=Roboto&family=Teko:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Calibri;
+    background: 100%;
+    scroll-behavior: smooth;
+}
+body{
+    min-height: 500vh;
+}
+.container-fluid{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.header{
+    margin-top: 1%;
+    padding: 0;
+    width: 100%;
+    height: 15%;
+    background-color: #c5dafd;
+    border-radius: 20px;
+
+}
+/*---------------------------SCROLL STYLE---------------------------*/
+.scroll-btn1{
+    width: 60px;
+    height: 60px;
+    border: 2px solid #102A7D;
+    background-color: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.scroll-btn1 img{
+    margin-left: 9px;
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+}
+.scroll-btn2{
+    width: 60px;
+    height: 60px;
+    border: 2px solid #102A7D;
+    background-color: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+}
+.scroll-btn2 img{
+    margin-left: 9px;
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+}
+/*---------------------------NAVIGATION BAR STYLE---------------------------*/
+navbar{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    padding: 35px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+navbar .logo{
+    width: 8%;
+    height: 8%;
+    margin-left: -5%;
+
+}
+navbar ul li{
+    font-weight: bolder;
+    display: inline-block;
+    margin: 0 40px;
+}
+navbar ul li a{
+    font-size: 25px;
+    text-decoration: none;
+    color: #00318B;
+    text-transform: uppercase;
+}
+navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #00318B;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.nav-button{
+    align-items:center;
+    justify-content: center;
+    width: 100px;
+    height: 10px;
+}
+.login-btn{
+    width: 150px;
+    border: 2px solid #00318B;
+    border-radius: 25px;
+    font-size: 25px;
+    background: #00318B;
+    color: white;
+    text-transform: uppercase;
+    margin: 0 10px;
+    font-weight: bolder;
+}
+.register-btn{
+    width: 150px;
+    border: 2px solid #0089D9;
+    border-radius: 25px;
+    font-size: 25px;
+    background: #0089D9;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+/*---------------------------SCROLL UP-----------------------------*/
+
+/*---------------------------HOME TAB STYLE---------------------------*/
+
+.home-page-outer{
+    margin-top: 1%;
+    border-radius: 20px;
+    background-color: #ecebeb;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.home-page-left{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 50px;
+}
+.home-page-left h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: #0089D9;
+    text-transform: uppercase;
+}
+
+.home-page-left p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #102A7D;
+    text-align: justify;
+}
+.home-page-button{
+    width: 500px;
+    height: 200px;
+    align-items: center;
+    justify-content: left;
+}
+
+.home-btn{
+    width: 130px;
+    border: 2px solid #00318B;
+    border-radius: 50px;
+    font-size: 20px;
+    background: #00318B;
+    color: white;
+    text-transform: uppercase;
+}
+
+.home-page-right{
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-image{
+    width: 400px;
+}
+/*---------------------------ABOUT TAB STYLES---------------------------*/
+
+.about-us-outer{
+    padding-top: 50px;
+    margin-top: 1%;
+    border-radius: 20px;
+    background-color: #ecebeb;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.app-title{
+    width: 500px;
+    height: 100px;
+    align-items: center;
+    margin-left: 50px;
+}
+.app-title h1{
+    font-weight: 900;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #0089D9;
+}
+.about-us-inner{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutus-leftside{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.about-image{
+    width: 750px;
+}
+
+.aboutus-rightside{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutus-description{
+    margin-top: 25px;
+    position: relative;
+    padding-top: 10px;
+    width: 95%;
+    height: 70%;
+    border: 2px solid #102A7D;
+    border-radius: 25px;
+    background-color: #ffffff;
+}
+.aboutus-description h3{
+    padding-left: 5%;
+    padding-top: 5%;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #102A7D;
+}
+.aboutus-description p{
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 21px;
+    text-align: justify;
+    color: #102A7D;
+}
+.about-icon{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.fa-youtube{
+    color: red;
+    font-size: 100px;
+}
+
+/*---------------------------RESOUCERS TAB STYLES---------------------------*/
+
+.resources-outer{
+    padding-top: 50px;
+    margin-top: 1%;
+    background-color: #ecebeb;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+.resources-inner-1{
+    margin-top: -20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.resources-inner-2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resource-items{
+    width: 300px;
+    height: 400px;
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid #102A7D;
+    border-radius: 12px;
+    background-color: #ffffff;
+}
+
+.resource-image-container{
+    width: 80%;
+    height: 80%;
+    margin: 20px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image1{background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("/images/image 1.jpg"); background-size: cover;background-repeat: no-repeat}
+.image2{background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("/images/image 2.jpg"); background-size: cover;background-repeat: no-repeat}
+.image3{background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("/images/image 3.webp"); background-size: cover;background-repeat: no-repeat}
+.image4{background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("/images/image 4.jpg"); background-size: cover;background-repeat: no-repeat}
+.image5{background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("/images/image 5.jpg"); background-size: cover;background-repeat: no-repeat}
+.image6{background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("/images/image6.webp"); background-size: cover;background-repeat: no-repeat}
+
+.resource-download-btn{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resourcesbtn{
+    font-weight: 700;
+    color: white;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid white;
+    text-transform: uppercase;
+    width: 150px;
+    height: 50px;
+}
+.resource-topic-container{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    color: #102A7D;
+}
+
+/*---------------------------FAQ TAB STYLES---------------------------*/
+.faq-outer{
+    padding-top: 50px;
+    border-radius: 20px;
+    background-color: #ecebeb;
+    margin-top: 1%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.faq-inner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.faqsearch-heading h3{
+    color: #00318B;
+    font-weight: 500;
+    font-size: 30px;
+}
+.form1{
+    text-decoration: none;
+}
+.faq-searchbar{
+    width: 100%;
+    height: 250px;
+    margin-left: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchbox{
+    width: 700px;
+    height: 50px;
+    padding-left: 15px;
+    border: 2px solid #00318B;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    text-decoration: none;
+    background-color: #fff;
+}
+.faq-searchbtn{
+    font-size: 25px;
+    border: 2px solid #00318B;
+    background-color: #00318B;
+    color: white;
+    height: 50px;
+    width: 150px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+
+}
+
+.faq-leftside{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-title h2{
+    font-size: 25px;
+    color: #00318B;
+}
+.list{
+    margin-left: 50px;
+    margin-top: -130px;
+}
+.list a{
+    text-decoration: none;
+}
+
+.list-item{
+    background-color: white;
+    width: 600px;
+    height: 60px;
+    border: 2px solid #00318B;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+.list-item h4{
+    margin-left: 20px;
+    padding-top: 15px;
+    font-size: 23px;
+    color: #00318B;
+    font-weight: bold;
+}
+.icon{
+    padding-left: 20px;
+    padding-top: 8px;
+    font-size: 25px;
+    color: #0089D9;
+    border-radius: 50%;
+    float: left;
+    transition: all .5s ease-in;
+}
+.icon img{
+    width: 30px;
+    height: 30px;
+}
+
+.faq-rightside{
+    width: 100%;
+    height: 100%;
+    margin-top: -210px;
+    align-items: center;
+    justify-content: center;
+}
+.faqimage{
+    width: 750px;
+}
+
+/*---------------------------CONTACT TAB STYLES---------------------------*/
+.contacts-outer{
+    padding-top: 50px;
+    border-radius: 20px;
+    margin-top: 1%;
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ecebeb;
+}
+.contacts-inner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts-left-items{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts-right-items{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-image{
+    width: 750px;
+    height: 600px;
+    padding-left: 50px;
+}
+.details-outer{
+    width: 300px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.details-top{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-formitem{
+    width: 100%;
+    height: 100%;
+}
+.right-contact-details{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.contacts-header{
+    margin-left: 50px;
+    font-size: 25px;
+    color: #102A7D;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #102A7D;
+    border-radius: 4px;
+    resize: vertical;
+
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-weight: bold;
+    color: #102A7D;
+}
+
+.container-2 {
+    margin-left: 150px;
+    border: 2px solid #102A7D;
+    width: 400px;
+    height: 500px;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 20px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+#subject{
+    border: 1px solid #102A7D;
+}
+.contacthelp-button{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contacts-button{
+    width: 150px;
+    border: 2px solid #102A7D;
+    border-radius: 25px;
+    font-size: 25px;
+    background: #102A7D;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.contacts-button a{
+    text-decoration: none;
+    color: white;
+}
+
+/*---------------------------FOOTER---------------------------*/
+footer{
+    border-radius: 20px;
+    margin-top: 1%;
+    position: relative;
+    width: 100%;
+    background: #0089d9;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 1%;
+}
+.social_icon{
+    font-size: 30px;
+}
+footer .social_icon,
+footer .menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10;
+    flex-wrap: wrap;
+}
+footer .social_icon img{
+    width: 50px;
+    height: 50px;
+    border: 0.75px solid #ffffff;
+    border-radius: 10px;
+}
+footer .social_icon li,
+footer .menu li{
+    list-style: none;
+}
+
+footer .social_icon li a{
+    font-size: 2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+footer .social_icon li a:hover{
+    transform: translateY(-10px);
+}
+footer .menu li a{
+    font-size: 1.2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+}
+
+footer .menu li a:hover{
+    opacity: 1;
+}
+
+footer p{
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-top: -5px;
+    font-size: 1.1em;
+}
+
+
+
+

@@ -1,0 +1,170 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.scene
+{
+    position: relative;
+    height: 100vh;
+    overflow-x: hidden;
+    background: linear-gradient(#a6d8ff,#fff,#fff);
+}
+.dark .scene
+{
+    background: #222833;
+}
+.sun
+{
+    position: absolute;
+    top: 100px;
+    left: 55%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 50pt #fff;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.dark .sun{
+    left: 45%;
+    box-shadow: 0 0 0 #fff;
+
+}
+.dark .sun::before
+{
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    width: 100%;
+    height: 100%;
+    background: #222833;
+    border-radius: 50%;
+
+}
+.bg
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 340px;
+    background: url("../Images/bg.png");
+    animation: animateBg 25s linear infinite;
+    background-size: 1800px;
+    background-repeat: repeat-x;
+}
+@keyframes animateBg
+{
+    0%
+    {
+        background-position: 0px;
+    }
+    100%{
+        background-position: -1800px;
+    }
+}
+.car1
+{
+    position: absolute;
+    left: -200px;
+    bottom: 20px;
+    max-width: 200px;
+    z-index: 10;
+    animation: car1 15s linear infinite;
+}
+@keyframes car1
+{
+    0%
+    {
+        transform: translateX(0px);
+    }
+    90%,100%
+    {
+        transform: translateX(calc(100vw + 200px));
+    }
+}
+
+.ambulance1
+{
+    position: absolute;
+    right: -200px;
+    bottom: 28px;
+    max-width: 200px;
+    z-index: 9;
+    animation: ambulance1 14s linear infinite;
+}
+@keyframes ambulance1
+{
+    0%
+    {
+        transform: translateX(0px)rotateY(180deg);
+    }
+    90%,100%
+    {
+        transform: translateX(calc(-100vw - 200px))rotateY(180deg);
+    }
+}
+
+.logo-background{
+    margin-left: 32%;
+    margin-top: 16.5%;
+    width: 8%;
+    height: 16%;
+    background-color: white;
+    border: 2px solid #000;
+    border-radius: 50%;
+}
+
+.logo{
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 80%;
+    height: 80%;
+}
+
+.content{
+    margin-top: -6.8%;
+    margin-left: 40.5%;
+    width: 25%;
+    height: 12%;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.content h1{
+    margin-left: 5%;
+    margin-top: 1%;
+    font-family: Calibri;
+    font-size: 135%;
+    color: #102A7D;
+}
+
+.content h2{
+    margin-left: 5%;
+    font-family: Calibri;
+    font-size: 275%;
+    color: #2d3748;
+}
+
+.arrow{
+    margin-top: -6.3%;
+    margin-left: 59%;
+    width: 7%;
+    height: 13.8%;
+    border: 2px solid #000;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.arrow img{
+    margin-left: 14%;
+    margin-top: 6%;
+    width: 75%;
+    height: 80%;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Profile </title>
+    <link rel="stylesheet" href="Page 02 - Profile.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+    <div class="sidebar">
+      <div class="logo-details">
+        <span class="icon"><img src="Images\logo.png" width="50px" height="50px"></span>
+          <div class="logo_name">Covi Guard</div>
+          <i class='bx bx-menu' id="btn" ></i>
+      </div>
+      <ul class="nav-list">
+        
+        <li>
+          <a href="Overview.html">
+            <span class="icon"><ion-icon name="home-sharp"></ion-icon></span>
+            <span class="links_name">Overview</span>
+          </a>
+          <span class="tooltip">Overview</span>
+        </li>
+        <li>
+          <a href="Profile.html">
+            <span class="icon"><ion-icon name="person-sharp"></ion-icon></span>           
+            <span class="links_name">Profile</span>
+          </a>
+           <span class="tooltip">Profile</span>
+        </li> 
+       <li>
+         <a href="Symptoms.html">
+          <span class="icon"><ion-icon name="extension-puzzle-sharp"></ion-icon></span>
+           <span class="links_name">Symptoms</span>
+         </a>
+         <span class="tooltip">Symptoms</span>
+       </li>
+       <li>
+         <a href="TextYourSelf.html">
+          <span class="icon"><ion-icon name="bar-chart-sharp"></ion-icon></span>
+           <span class="links_name">Test Yourself</span>
+         </a>
+         <span class="tooltip">Test Yourself</span>
+       </li>
+       <li>
+         <a href="Preventions.html">
+          <span class="icon"><ion-icon name="bag-add-sharp"></ion-icon></span>
+           <span class="links_name">Preventions</span>
+         </a>
+         <span class="tooltip">Preventions</span>
+       </li>
+       <li>
+         <a href="Hospital.html">
+          <span class="icon"><ion-icon name="add-circle-sharp"></ion-icon></ion-icon></span>
+           <span class="links_name">Hospital</span>
+         </a>
+         <span class="tooltip">Hospital</span>
+       </li>
+       <li>
+         <a href="Emergency.html">
+          <span class="icon"><ion-icon name="color-filter-sharp"></ion-icon></span>
+           <span class="links_name">Emeragency</span>
+         </a>
+         <span class="tooltip">Emeragency</span>
+       </li>
+       <li>
+          <a href="Journal.html">
+            <span class="icon"><ion-icon name="reader-sharp"></ion-icon></span>
+            <span class="links_name">Journal</span>
+          </a>
+          <span class="tooltip">Journal</span>
+        </li>
+       <li>
+         <a href="#">
+          <span class="icon"><ion-icon name="log-out-sharp"></ion-icon></span>
+           <span class="links_name">Log Out</span>
+         </a>
+         <span class="tooltip">Log Out</span>
+       </li>
+       
+      </ul>
+    </div>
+    <section class="home-section">
+        <div class="text">Profile</div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+    let sidebar = document.querySelector(".sidebar");
+    let closeBtn = document.querySelector("#btn");
+    let searchBtn = document.querySelector(".bx-search");
+  
+    closeBtn.addEventListener("click", ()=>{
+      sidebar.classList.toggle("open");
+      menuBtnChange();//calling the function(optional)
+    });
+  
+    searchBtn.addEventListener("click", ()=>{ // Sidebar open when you click on the search iocn
+      sidebar.classList.toggle("open");
+      menuBtnChange(); //calling the function(optional)
+    });
+  
+    // following are the code to change sidebar button(optional)
+    function menuBtnChange() {
+     if(sidebar.classList.contains("open")){
+       closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");//replacing the iocns class
+     }else {
+       closeBtn.classList.replace("bx-menu-alt-right","bx-menu");//replacing the iocns class
+     }
+    }
+    </script>
+  </body>
+  </html>
+  

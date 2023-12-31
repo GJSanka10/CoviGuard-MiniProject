@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Calibri;
+}
+body{
+
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    display: flex;
+}
+.left-content{
+    width: 25%;
+    height: 100vh;
+    background-color: #bcc3c5;
+}
+.logo{
+    width: 20%;
+    height: 10%;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+.left-content header{
+    font-size: 190%;
+    font-weight: bold;
+    margin-top: -15%;
+    margin-left: 45%;
+    color: #102A7D;
+}
+.vaccine{
+    width: 65%;
+    height: 50%;
+    margin-left: 20%;
+    margin-top: 15%;
+}
+.left-content p{
+    font-size: 140%;
+    color: #102A7D;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+.left-content h1{
+    font-size: 140%;
+    color: #102A7D;
+    margin-left: 36%;
+}
+.call{
+    width: 15%;
+    height: 8%;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+.mail{
+    width: 15%;
+    height: 8%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.right-content{
+    width: 75%;
+    height: 100vh;
+    background-color: #b9ddf1;
+}
+.right-content nav{
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+}
+.profile-pic{
+    width: 5%;
+    right: 5%;
+    border-radius: 50%;
+    margin-left: 93%;
+}
+.right-content header{
+    font-size: 45px;
+    font-weight: bold;
+    color: #102A7D;
+}
+.content{
+    margin-left: 5%;
+}
+.right-content h1{
+    font-size: 25px;
+    color: #102A7D;
+}
+.right-content td{
+    padding-top: 3%;
+}
+.right-content input[type="text"]{
+    width: 500px;
+    height: 45px;
+    border-radius: 25px;
+    border: 0.75px solid rgb(0, 49, 139);
+    color: #00318B;
+    text-align: center;
+    margin-left: 20%;
+    font-size: 20px;
+}
+.right-content input[type="date"]{
+    width: 500px;
+    height: 45px;
+    border-radius: 25px;
+    border: 0.75px solid rgb(0, 49, 139);
+    color: #00318B;
+    text-align: center;
+    margin-left: 20%;
+    font-size: 20px;
+}
+.right-content select{
+    width: 500px;
+    height: 45px;
+    border-radius: 25px;
+    border: 0.75px solid rgb(0, 49, 139);
+    font-size: 20px;
+    color: #00318B;
+    text-align: center;
+    margin-left: 20%;
+}
+.next {
+    margin-left: 88%;
+    margin-top: 14%;
+}
+.next input[type="submit"]{
+    width: 100px;
+    height: 30px;
+    border: 1px solid #00318B;
+    background-color:#00318B;
+    color: #fff;
+    font-size: large;
+    font-weight: bold;
+}
+.right-content input[type="submit"]:hover{
+    text-decoration: none;
+    opacity: 1;
+}
