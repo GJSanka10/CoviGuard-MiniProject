@@ -1,3 +1,37 @@
+# University Mini Project
+
+COVID Management and Vaccination Management Application – your one-stop solution for effective COVID-19 management and streamlined vaccination processes. This innovative application is designed to empower individuals, healthcare providers, and government agencies in the fight against the global pandemic.
+## Authors
+
+- [@Tasheela Jayawickrama](https://github.com/Tasheela99)
+- [@Waruni Sadareka](https://github.com/Waruni-sandareka)
+- [@Gayashan Bashitha]()
+- [@Pubudu Ishan]()
+- [@Gayan Jayassanka](https://github.com/GJSanka10)
+- 
+## Features
+
+- Light/dark mode toggle
+- Live previews
+- Fullscreen mode
+- Real-time Statistics
+- Vaccination Information
+- Vaccination Status Tracking
+- Vaccination Centers Locator
+- Public Health Alerts and Guidelines
+- Testing Center Locator
+- ducational Resources
+
+## Screen Shots
+![covi1](https://github.com/GJSanka10/CoviGuard-MiniProject/assets/121654570/5ad40b53-42cf-4371-8358-9bcadaf7f549)
+![covi2](https://github.com/GJSanka10/CoviGuard-MiniProject/assets/121654570/d47980ce-43e9-41fa-bf25-c225299e3ca6)
+![covi](https://github.com/GJSanka10/CoviGuard-MiniProject/assets/121654570/29a40c39-037c-4602-bb41-026ea698dc8b)
+![covi3](https://github.com/GJSanka10/CoviGuard-MiniProject/assets/121654570/cf63432e-3f01-4aa5-984a-fc9c68c4631f)
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
